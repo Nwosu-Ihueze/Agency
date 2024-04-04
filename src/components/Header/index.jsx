@@ -19,7 +19,7 @@ const Header = () => {
 </svg>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button type="button" className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-md bg-[#FA7436] px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9" onClick={handleClick}>Let's Talk</button>
+            <button type="button" className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-md bg-[#FA7436] px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9" onClick={handleClick}>Let&apos;s Talk</button>
         </div>
         </div>
       </nav>

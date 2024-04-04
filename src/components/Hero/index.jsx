@@ -31,14 +31,14 @@ const HeroSection = () => {
                 🚀 <span className="text-[#FA7436]">Launch </span>Your Idea with Us! 🚀
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-[#595959] sm:text-lg md:text-xl">
-                At 7Decagon, we're here to make your vision a reality. Whether you're a startup or an established company, we specialize in crafting your Minimum Viable Product (MVP) and bringing your ideas to life.
+                At 7Decagon, we&apos;re here to make your vision a reality. Whether you&apos;re a startup or an established company, we specialize in crafting your Minimum Viable Product (MVP) and bringing your ideas to life.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                 <div
                     // onClick={handleOpenEmail}
                     className="rounded-md bg-[transparent] border border-xl border-[#FA7436] px-8 py-4 text-base font-semibold text-[#FA7436] duration-300 ease-in-out hover:bg-[#FA7436] hover:text-white" onClick={handleClick}
                 >
-                    Let's Talk
+                    Let&apos;s Talk
                 </div>
                 <Link
                     href="#pricing"

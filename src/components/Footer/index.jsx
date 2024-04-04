@@ -15,7 +15,7 @@ const Footer = () => {
 </a>
         <p className="text-[#FA7436]">&copy; 2024 7Decagon. All rights reserved</p>
           <button className="bg-[#FA7436] text-white px-4 py-2 rounded-md shadow-sm">
-            Let's Talk
+            Let&apos;s Talk
           </button>
     </div>
   </div>

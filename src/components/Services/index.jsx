@@ -8,7 +8,7 @@ const Services = () => {
           <div className="text-center mb-12">
             <h2 className="lg:text-5xl md:text-4xl text-3xl font-bold text-[#222222] leading-8 font-volkhov">Things we do for<span className="text-[#FA7436] font-volkhov"> you </span></h2>
             <p className="mt-4 text-lg text-[#666666] font-poppins">
-              We ensure that your idea is perfectly planned, built at a price you can afford.
+              We ensure that your idea is perfectly planned, built in a timely manner.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -128,7 +128,7 @@ const Services = () => {
                   </svg>
 
 
-                  <span class="text-base font-normal leading-tight text-[#595959] ms-3 font-poppins">Userflow &amp; Flowcharts</span>
+                  <span class="text-base font-normal leading-tight text-[#595959] ms-3 font-poppins">Component based architecture</span>
                 </li>
               </ul>
             </div>

@@ -117,7 +117,7 @@ const Pricing = () => {
                   <span class="text-base font-normal leading-tight text-white ms-3 font-poppins">Data collection</span><span className="bg-[#FF97E8] text-[#222222] px-2 py-1 rounded-md ml-2 font-poppins">+$300/1,000 data</span>
                 </li>
             </ul>
-              <button className="w-full text-white font-poppins bg-[#FA7436] px-6 py-3 rounded-md shadow-sm hover:bg-[#FA7436] hover:text-white transition-colors duration-300">
+              <button className="w-full text-white font-poppins bg-[#FA7436] px-6 py-3 rounded-md shadow-sm hover:bg-[#FA621C] hover:text-white transition-colors duration-300">
                 Select
               </button>
             </div>

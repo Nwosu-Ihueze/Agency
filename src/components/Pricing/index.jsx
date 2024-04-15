@@ -1,4 +1,5 @@
-// components/PricingSection.jsx
+'use client'
+import Link from "next/link";
 
 const Pricing = () => {
   return (
@@ -50,8 +51,8 @@ const Pricing = () => {
                   <span class="text-base font-normal leading-tight text-[#595959] ms-3 font-poppins">One request at a time</span>
                 </li>
             </ul>
-            <button className="w-full bg-white font-poppins text-[#FA7436] border border-[#FA7436] border-xl px-6 py-3 rounded-md hover:bg-[#FA7436] hover:text-white transition-colors duration-300">
-              Book A Call
+            <button className="w-full bg-white font-poppins text-[#FA7436] border border-[#FA7436] border-xl px-6 py-3 rounded-md hover:bg-[#FA7436] hover:text-white transition-colors duration-300" type="button">
+              <Link href="https://calendly.com/7decagon/let-s-chat">Book A Call</Link>
             </button>
           </div>
           {/* Add the other two pricing cards here */}
@@ -101,7 +102,7 @@ const Pricing = () => {
                 </li>
             </ul>
             <button className="w-full bg-white font-poppins text-[#FA7436] border border-[#FA7436] border-xl px-6 py-3 rounded-md hover:bg-[#FA7436] hover:text-white transition-colors duration-300">
-              Book A Call
+            <Link href="https://calendly.com/7decagon/let-s-chat">Book A Call</Link>
             </button>
           </div>
           <div className="bg-black py-16 px-8 text-white rounded-xl">
@@ -151,7 +152,7 @@ const Pricing = () => {
                 </li>
             </ul>
               <button className="w-full text-white font-poppins bg-[#FA7436] px-6 py-3 rounded-md shadow-sm hover:bg-[#FA621C] hover:text-white transition-colors duration-300">
-                Book A Call
+                <Link href="https://calendly.com/7decagon/let-s-chat">Book A Call</Link>
               </button>
             </div>
           </div>

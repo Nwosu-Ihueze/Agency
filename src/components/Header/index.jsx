@@ -1,15 +1,15 @@
 "use client";
-
+import Link from "next/link";
 
 const Header = () => {
-  const handleClick = () => {
-    const email = "7decagon@gmail.com"; // Replace with your desired email address
-    const subject = "Let's Talk"; // Replace with your desired subject line
-    const body = "Hi there,\n\nI would like to discuss your services further. Please get back to me at your earliest convenience.\n\nBest regards,\n[Your Name]"; // Replace with your desired body content
+  // const handleClick = () => {
+  //   const email = "7decagon@gmail.com"; // Replace with your desired email address
+  //   const subject = "Let's Talk"; // Replace with your desired subject line
+  //   const body = "Hi there,\n\nI would like to discuss your services further. Please get back to me at your earliest convenience.\n\nBest regards,\n[Your Name]"; // Replace with your desired body content
 
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.open(mailtoLink);
-  };
+  //   const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  //   window.open(mailtoLink);
+  // };
   return (
     <>
 
@@ -22,7 +22,7 @@ const Header = () => {
               </svg>
             </a>
             <div class="flex items-center lg:order-2">
-              <a href="#" class="text-white bg-[#FA7436] hover:bg-[#FA621C] drop-shadow-md drop-shadow-[#FDDBCC] font-medium font-poppins rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2" onClick={handleClick}>Let&apos;s Talk</a>
+              <Link href="https://calendly.com/7decagon/30min" class="text-white bg-[#FA7436] hover:bg-[#FA621C] shadow-md shadow-[#FDDBCC] font-medium font-poppins rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2">Let&apos;s Talk</Link>
             </div>
           </div>
         </nav>
